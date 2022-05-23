@@ -23,3 +23,4 @@ jobs:
       - run: ls -al /bin/sh && sudo rm /bin/sh && sudo ln -s /bin/bash /bin/sh && ls -al /bin/sh
       - run: chmod +x ./install.sh
       - run: ./install.sh
+
